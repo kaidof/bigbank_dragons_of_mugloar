@@ -124,11 +124,7 @@ const fetchMessages = async (risk) => {
         return a.risk - b.risk;
       }
     }).filter(msg => msg.risk <= risk)
-  } catch (e) {
-    console.error('f_E', e);
-  }
-
-  console.log('fetchMessages NULL');
+  } catch (e) {}
 
   return null;
 };
