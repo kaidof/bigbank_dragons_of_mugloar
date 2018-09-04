@@ -1,0 +1,26 @@
+{
+  "name": "bigbank_dragons_of_mugloar",
+  "version": "1.0.0",
+  "description": "Dragons of Mugloar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kaido Ferents <kaidof@yahoo.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaidof/bigbank_dragons_of_mugloar.git"
+  },
+  "engines": {
+    "node": ">=8.11.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.1.2"
+  }
+}
